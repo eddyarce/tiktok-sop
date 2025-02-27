@@ -1,16 +1,3 @@
-/* Icon styles using Lucide */
-.section-icon {
-    display: inline-flex;
-    width: 24px;
-    height: 24px;
-    margin-right: 12px;
-}
-
-.section-collapse-icon {
-    width: 24px;
-    height: 24px;
-}
-
 /* Section content transitions */
 .section-content {
     max-height: 0;
@@ -51,6 +38,23 @@
     padding-left: 1.25rem;
 }
 
+.list-decimal {
+    list-style-type: decimal;
+    padding-left: 1.25rem;
+}
+
 .space-y-1 > * + * {
     margin-top: 0.25rem;
+}
+
+/* Fix for Lucide icons */
+[data-lucide] {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+/* Opacity for white text */
+.text-white\/80 {
+    color: rgba(255, 255, 255, 0.8);
 }
