@@ -327,101 +327,100 @@
                     </div>
                 </div>
 
-                <!-- Quality Control -->
-                <div class="rounded-xl border overflow-hidden transition-all duration-300 bg-amber-100 border-amber-400">
-                    <button class="w-full p-4 flex justify-between items-center text-white bg-amber-500" onclick="toggleSection(3)">
-                        <div class="flex items-center">
-                            <i data-lucide="check-circle" class="mr-3"></i>
-                            <h2 class="text-xl font-bold">Quality Control</h2>
-                        </div>
-                        <i data-lucide="chevron-down" class="section-collapse-icon"></i>
-                    </button>
-                    <div class="section-content bg-white" id="section-content-3">
-                        <div>
-                            <div class="mb-6">
-                                <h3 class="font-bold text-lg mb-2">Objective</h3>
-                                <p>Ensure all videos meet quality standards before posting.</p>
-                            </div>
-                            
-                            <div class="mb-4">
-                                <h3 class="font-bold text-lg mb-2">Process</h3>
-                                
-                                <div class="mb-4">
-                                    <h4 class="font-bold mb-2">Step 1: Initial Check</h4>
-                                    <ul class="list-disc pl-5 space-y-1">
-                                        <li>When videos are marked "Ready for Review", change to "Under QC Review"</li>
-                                        <li>Download the video</li>
-                                        <li>Verify naming convention: Product Name - VersionNumber - date</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="mb-4">
-                                    <h4 class="font-bold mb-2">Step 2: Technical Assessment</h4>
-                                    <ul class="space-y-1">
-                                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> Video resolution (clear, not pixelated)</li>
-                                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> Audio synced properly throughout</li>
-                                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> Aspect ratio is 9:16</li>
-                                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> No watermarks visible</li>
-                                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> No rendering errors or glitches</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="mb-4">
-                                    <h4 class="font-bold mb-2">Step 3: Content Verification</h4>
-                                    <ul class="space-y-1">
-                                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> Correct product shown</li>
-                                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> Avatar matches target demographic</li>
-                                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> Hook follows template with accurate pricing</li>
-                                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> Background sound matches specification</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="mb-4">
-                                    <h4 class="font-bold mb-2">Step 4: Marketing Effectiveness</h4>
-                                    <ul class="space-y-1">
-                                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> Hook text positioned properly</li>
-                                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> Avatar reaction timing aligns with product reveal</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="mb-4">
-                                    <h4 class="font-bold mb-2">Step 5: Decision & Documentation</h4>
-                                    <ul class="list-disc pl-5 space-y-1">
-                                        <li>If approved: Mark as "Ready to Post"</li>
-                                        <li>If minor issues: Note specific timestamps and elements to fix</li>
-                                        <li>If major issues: Reject with detailed explanation</li>
-                                        <li>Add QC completion date/time</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="mb-4">
-                                    <h4 class="font-bold mb-2">Step 6: Communication</h4>
-                                    <ul class="list-disc pl-5 space-y-1">
-                                        <li>Notify editor of result</li>
-                                        <li>Provide clear revision instructions if needed</li>
-                                        <li>Notify poster when videos are approved</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="mb-4">
-                                    <h4 class="font-bold mb-2">Step 7: Final Steps</h4>
-                                    <ul class="list-disc pl-5 space-y-1">
-                                        <li>After revisions, verify changes implemented correctly</li>
-                                        <li>Update status to "Final Approval"</li>
-                                        <li>Transfer to Poster Sheet:</li>
-                                        <ul class="list-disc pl-5 space-y-1">
-                                            <li>Copy product name</li>
-                                            <li>Verify version number</li>
-                                            <li>Add final video link</li>
-                                            <li>Notify poster via telegram</li>
-                                        </ul>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              <!-- Quality Control -->
+<div class="rounded-xl border overflow-hidden transition-all duration-300 bg-amber-100 border-amber-400">
+    <button class="w-full p-4 flex justify-between items-center text-white bg-amber-500" onclick="toggleSection(3)">
+        <div class="flex items-center">
+            <i data-lucide="check-circle" class="mr-3"></i>
+            <h2 class="text-xl font-bold">Quality Control</h2>
+        </div>
+        <i data-lucide="chevron-down" class="section-collapse-icon"></i>
+    </button>
+    <div class="section-content bg-white" id="section-content-3">
+        <div>
+            <div class="mb-6">
+                <h3 class="font-bold text-lg mb-2">Objective</h3>
+                <p>Ensure all videos meet quality standards before posting.</p>
+            </div>
+            
+            <div class="mb-4">
+                <h3 class="font-bold text-lg mb-2">Process</h3>
+                
+                <div class="mb-4">
+                    <h4 class="font-bold mb-2">Step 1: Initial Check</h4>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li>When videos are marked "Ready for Review", change to "Under QC Review"</li>
+                        <li>Download the video</li>
+                        <li>Verify naming convention: Product Name - VersionNumber - date</li>
+                    </ul>
                 </div>
-
+                
+                <div class="mb-4">
+                    <h4 class="font-bold mb-2">Step 2: Technical Assessment</h4>
+                    <ul class="space-y-1">
+                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> Video resolution (clear, not pixelated)</li>
+                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> Audio synced properly throughout</li>
+                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> Aspect ratio is 9:16</li>
+                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> No watermarks visible</li>
+                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> No rendering errors or glitches</li>
+                    </ul>
+                </div>
+                
+                <div class="mb-4">
+                    <h4 class="font-bold mb-2">Step 3: Content Verification</h4>
+                    <ul class="space-y-1">
+                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> Correct product shown</li>
+                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> Avatar matches target demographic</li>
+                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> Hook follows template with accurate pricing</li>
+                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> Background sound matches specification</li>
+                    </ul>
+                </div>
+                
+                <div class="mb-4">
+                    <h4 class="font-bold mb-2">Step 4: Marketing Effectiveness</h4>
+                    <ul class="space-y-1">
+                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> Hook text positioned properly</li>
+                        <li class="flex items-center"><i data-lucide="check-circle" class="text-green-500 mr-2 w-5 h-5"></i> Avatar reaction timing aligns with product reveal</li>
+                    </ul>
+                </div>
+                
+                <div class="mb-4">
+                    <h4 class="font-bold mb-2">Step 5: Decision & Documentation</h4>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li>If approved: Mark as "Ready to Post"</li>
+                        <li>If minor issues: Note specific timestamps and elements to fix</li>
+                        <li>If major issues: Reject with detailed explanation</li>
+                        <li>Add QC completion date/time</li>
+                    </ul>
+                </div>
+                
+                <div class="mb-4">
+                    <h4 class="font-bold mb-2">Step 6: Communication</h4>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li>Notify editor of result</li>
+                        <li>Provide clear revision instructions if needed</li>
+                        <li>Notify poster when videos are approved</li>
+                    </ul>
+                </div>
+                
+                <div class="mb-4">
+                    <h4 class="font-bold mb-2">Step 7: Final Steps</h4>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li>After revisions, verify changes implemented correctly</li>
+                        <li>Update status to "Final Approval"</li>
+                        <li>Transfer to Poster Sheet:</li>
+                        <ul class="list-disc pl-5 space-y-1">
+                            <li>Copy product name</li>
+                            <li>Verify version number</li>
+                            <li>Add final video link</li>
+                            <li>Notify poster via telegram</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
                 <!-- Video Posting -->
                 <div class="rounded-xl border overflow-hidden transition-all duration-300 bg-red-100 border-red-400">
                     <button class="w-full p-4 flex justify-between items-center text-white bg-red-500" onclick="toggleSection(4)">
